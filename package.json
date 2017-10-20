@@ -1,0 +1,51 @@
+{
+  "name": "pub-logger",
+  "version": "1.0.8",
+  "description": "Micro logger with publish/subscribe mechanism.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "ci":
+      "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
+  },
+  "jest": {
+    "testResultsProcessor": "./node_modules/jest-junit-reporter"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "pub",
+    "pubsub",
+    "subscribe",
+    "micro",
+    "publish",
+    "broadcast",
+    "stdout",
+    "stderr",
+    "fs"
+  ],
+  "author": "stormcrows",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormcrows/pub-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormcrows/pub-logger/issues"
+  },
+  "homepage": "https://github.com/stormcrows/pub-logger#readme",
+  "maintainers": [
+    {
+      "name": "stormcrows",
+      "email": "stormingcrows@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "argstostring": "^1.0.8",
+    "subnpub": "^1.1.5"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-junit-reporter": "^1.1.0"
+  }
+}
