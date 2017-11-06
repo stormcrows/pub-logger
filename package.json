@@ -1,10 +1,11 @@
 {
   "name": "pub-logger",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Micro logger with publish/subscribe mechanism.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
     "ci":
       "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
   },
